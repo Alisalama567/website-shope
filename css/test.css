@@ -1,0 +1,54 @@
+/* .test-section */
+.test-section{
+    background-image: url(../images/background/background3.webp);
+    background-attachment: fixed;
+    height: 400px;
+    position: relative;
+}
+.test-contant{
+    overflow: hidden;
+    padding: 120px 0;
+    width: 80%;
+    margin: auto;
+}
+.test-item{
+    width: 40%;
+    float: left;
+    color: #fff;
+    margin: 0 5%;
+    
+}
+.test-item .test-toplayer{
+    padding: 10px 2px 40px 90px;
+    position: relative;
+}
+ .test-item-img{
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    left: 12px;
+    width: 63px;
+    height: 63px;
+    
+}
+
+.test-item-titl{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    /* float: left; */
+}
+.test-item-titl1{
+        color: #6195ff;
+        display: block;
+        text-transform: uppercase;
+}
+.test-item-doc{
+    color: #fff;
+    line-height: 1.5;
+    font-size: 17px;
+} 
+.section-line span .line{
+    margin-top: 20px;
+}

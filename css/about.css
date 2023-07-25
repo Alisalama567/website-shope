@@ -1,0 +1,37 @@
+/* 3.2- About Sections */
+.about.content{
+    overflow: hidden;
+}
+.about-item{
+    width: 30%;
+    float: left;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    padding: 50px 20px;
+    position: relative;
+    border-radius: 10px;
+}
+.about-item.mg , .portflio-item.mg{
+    margin: 0 5%;
+}
+.about-item .icon{
+    color: #6195ff;
+}
+.about-iteam-titel{
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.about-item:hover .about-iteam-titel {
+    color: white;
+}
+.about-iteam-doc{
+    line-height: 1.6;
+}
+.about-item:hover .about-iteam-doc{
+    color: #999;
+    transition: 0.5s;
+}
+.about-item-link{
+    color: #6195ff;
+    text-transform: capitalize;
+}
